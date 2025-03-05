@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: corelab/hello-frontend
+        image: anjia0532/google-samples.microservices-demo.frontend
         ports:
         - containerPort: 80
