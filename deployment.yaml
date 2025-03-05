@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: anjia0532/google-samples.microservices-demo.frontend
+        image: nginx:latest
         ports:
         - containerPort: 80
