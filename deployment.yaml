@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: nginx:latest
+        image: ghcr.io/waggle-sensor/react-example-app:latest
         ports:
         - containerPort: 80
