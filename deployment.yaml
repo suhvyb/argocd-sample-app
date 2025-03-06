@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: weaveworksdemos/front-end:latest
+        image: nginx:latest
         ports:
         - containerPort: 80
